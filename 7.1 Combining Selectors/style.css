@@ -1,0 +1,28 @@
+/* Write your code here: */
+h1,h2{
+    color:blueviolet;
+}
+#done{
+    color: green;
+}
+p#done{
+    text-decoration: line-through;
+    color: gray;
+
+}
+li#done{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.list>.list{
+    background-color: yellow;
+}
+.box >p{
+    font-size: 30px;
+}
+.box .list li{
+    font-size: 20px;
+}
+.box p#done{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
